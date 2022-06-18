@@ -1,0 +1,27 @@
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 2px solid black;
+  height: 150px;
+  max-width: 310px;
+}
+.flex-item {
+  background-color: aqua;
+  height: 50%;
+  width: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 4px;
+  min-width: 100px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.wrap-reverso {
+  flex-wrap: wrap-reverse;
+}
+.flex-item:nth-child(odd) {
+  background-color: orangered;
+}

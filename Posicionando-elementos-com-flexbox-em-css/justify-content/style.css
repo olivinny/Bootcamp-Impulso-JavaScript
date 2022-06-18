@@ -1,0 +1,35 @@
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid black;
+  max-width: 400px;
+}
+.flex-item {
+  background-color: aqua;
+  margin: 5px;
+  text-align: center;
+  border-radius: 4px;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.column {
+  flex-direction: column;
+  min-height: 200px;
+}
+.flex-item:nth-child(odd) {
+  background-color: orangered;
+}
