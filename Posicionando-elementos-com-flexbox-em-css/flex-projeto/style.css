@@ -54,7 +54,7 @@ header .menu {
   font: 48px;
   margin-bottom: 10px;
 }
-.texto-apresentacao a {
+.btn {
   background-color: #122a57;
   color: #fff;
   text-align: center;
@@ -117,7 +117,7 @@ header .menu {
   display: inline-block;
   border-radius: 30px;
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin-top: 20px;
   text-decoration: none;
   color: #122a57;
@@ -132,4 +132,43 @@ header .menu {
 .item-servicos img {
   width: 80%;
   margin: auto;
+}
+#planos {
+  flex-direction: column;
+  min-height: 100vh;
+}
+.list-planos {
+  display: flex;
+  align-items: flex-end;
+}
+.item-plano {
+  flex: 1;
+  border: 5px solid #122a57;
+  margin-right: 20px;
+  padding: 10px;
+}
+.item-plano .btn {
+  margin: 20px auto;
+  display: block;
+  width: 100px;
+}
+.item-plano h3 {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.item-plano h3:after {
+  content: "";
+  background-color: #122a57;
+  width: 80%;
+  height: 3px;
+  align-self: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.item-plano ul {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
 }
